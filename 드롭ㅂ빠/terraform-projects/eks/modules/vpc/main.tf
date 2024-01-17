@@ -11,7 +11,7 @@ module "vpc" {
   cidr = "10.0.0.0/16"
 
   providers = {
-    aws = aws.us-east-2
+    aws = aws.ap-northeast-2
   }
 
   azs = ["us-east-2a", "us-east-2b", "us-east-2c"]
