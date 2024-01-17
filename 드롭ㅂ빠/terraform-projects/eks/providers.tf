@@ -2,7 +2,7 @@
 provider "aws" {
   profile = var.profile
   region  = var.main-region
-  alias   = "us-east-2"
+  alias   = "ap-northeast-2"
 }
 
 provider "kubernetes" {
